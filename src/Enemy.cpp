@@ -111,7 +111,7 @@ void Enemy::HandlePlayerProximityJump(const Player& player) {
 }
 
 void Enemy::ExecuteAI(float deltaTime, float mapWidth, float finishLineX,
-                     const Player& player, bool soundEnabled) {
+                     const Player& player, [[maybe_unused]] bool soundEnabled) {
     if (deltaTime <= 0.0f) {
         std::cerr << "Warning: Invalid deltaTime passed to Enemy::ExecuteAI" << std::endl;
         return;
@@ -165,8 +165,8 @@ void Enemy::Update(float deltaTime) {
 }
 
 void Enemy::Draw(std::int32_t textureResolution, 
-                std::int32_t windowHeight, 
-                std::int32_t windowWidth) const {
+                [[maybe_unused]] std::int32_t windowHeight, 
+                [[maybe_unused]] std::int32_t windowWidth) const {
     if (m_textures.empty()) {
         std::cerr << "Warning: No textures available for enemy rendering" << std::endl;
         return;

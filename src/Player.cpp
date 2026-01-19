@@ -197,8 +197,8 @@ void Player::Update(float deltaTime) {
 }
 
 void Player::Draw(std::int32_t textureResolution, 
-                 std::int32_t windowHeight, 
-                 std::int32_t windowWidth) const {
+                std::int32_t windowHeight, 
+                [[maybe_unused]] std::int32_t windowWidth) const {
     if (m_textures.empty()) {
         std::cerr << "Warning: No textures available for player rendering" << std::endl;
         return;
