@@ -1,6 +1,6 @@
 # Play As Gobo
 
-[![Build Status](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/build.yml)
+[![Build PlayAsGobo](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/main.yml/badge.svg)](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/main.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/v/release/almohtadyg1/Play-As-Gobo)](https://github.com/almohtadyg1/Play-As-Gobo/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue.svg)](https://github.com/almohtadyg1/Play-As-Gobo)
