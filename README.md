@@ -25,6 +25,12 @@ A fast-paced 2D action game where you flip the script—**you are the enemy**. B
 | Create Explosion | `Space` |
 | Pause/Menu | `Esc` |
 
+## 🎮 Gameplay
+
+<div align="center">
+  <img src="assets/gameplay.gif" alt="Gameplay Demo" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
+
 ## 🚀 Quick Start
 
 ### Option 1: Download Pre-built Binary (Recommended)
