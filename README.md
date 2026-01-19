@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/build.yml/badge.svg)](https://github.com/almohtadyg1/Play-As-Gobo/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Release](https://img.shields.io/github/v/release/almohtadyg1/PlayAsGobo)](https://github.com/almohtadyg1/Play-As-Gobo/releases)
+[![Release](https://img.shields.io/github/v/release/almohtadyg1/Play-As-Gobo)](https://github.com/almohtadyg1/Play-As-Gobo/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue.svg)](https://github.com/almohtadyg1/Play-As-Gobo)
 
 A fast-paced 2D action game where you flip the script—**you are the enemy**. Built with modern C++17 and [Raylib](https://www.raylib.com/), Play-As-Gobo offers smooth gameplay mechanics and nostalgic vibes for OG gamers.
