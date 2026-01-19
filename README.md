@@ -1,10 +1,10 @@
 # Play As Gobo
 
-[![Build Status](https://github.com/almohtadyg1/PlayAsGobo/actions/workflows/build.yml/badge.svg)](https://github.com/almohtadyg1/PlayAsGobo/actions)
+[![Build Status](https://github.com/almohtadyg1/Play-As-Gobo/actions/workflows/build.yml/badge.svg)](https://github.com/almohtadyg1/Play-As-Gobo/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue.svg)]()
 
-A fast-paced 2D action game where you flip the script—**you are the enemy**. Built with modern C++17 and [Raylib](https://www.raylib.com/), PlayAsGobo offers smooth gameplay mechanics and nostalgic vibes for OG gamers.
+A fast-paced 2D action game where you flip the script—**you are the enemy**. Built with modern C++17 and [Raylib](https://www.raylib.com/), Play-As-Gobo offers smooth gameplay mechanics and nostalgic vibes for OG gamers.
 
 ## ✨ Features
 
@@ -21,8 +21,7 @@ A fast-paced 2D action game where you flip the script—**you are the enemy**. B
 | Action | Key |
 |--------|-----|
 | Move Left/Right | `←` / `→` Arrow Keys |
-| Jump | `Space` |
-| Create Explosion | `Left Mouse Button` |
+| Create Explosion | `Space` |
 | Pause/Menu | `Esc` |
 
 ## 🚀 Quick Start
@@ -31,7 +30,7 @@ A fast-paced 2D action game where you flip the script—**you are the enemy**. B
 
 Download the latest release for your platform:
 
-**[📦 Download Latest Release](https://github.com/almohtadyg1/PlayAsGobo/releases/latest)**
+**[📦 Download Latest Release](https://github.com/almohtadyg1/Play-As-Gobo/releases/latest)**
 
 - **Windows**: Extract `PlayAsGobo-Windows-Release.zip` and run `PlayAsGobo.exe`
 - **Linux**: Extract `PlayAsGobo-Linux-Release.tar.gz` and run `./PlayAsGobo`
@@ -48,11 +47,9 @@ Download the latest release for your platform:
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone --recursive https://github.com/almohtadyg1/PlayAsGobo.git
+git clone https://github.com/almohtadyg1/Play-As-Gobo.git
 cd PlayAsGobo
 ```
-
-> **Note:** The `--recursive` flag is crucial—it downloads Raylib as a submodule.
 
 #### 2️⃣ Install Platform Dependencies
 
@@ -181,9 +178,8 @@ PlayAsGobo/
 ├── .github/
 │   └── workflows/        # CI/CD pipelines
 ├── assets/               # Game assets (textures, sounds, fonts)
-│   ├── textures/
-│   ├── sounds/
-│   └── fonts/
+│   ├── audio/
+│   └── img/
 ├── include/              # Header files (.hpp)
 │   ├── Enemy.hpp
 │   ├── Explosion.hpp
@@ -196,9 +192,11 @@ PlayAsGobo/
 │   ├── main.cpp
 │   └── ...
 ├── libs/
-│   └── raylib/           # Raylib library (submodule)
+│   └── raylib/           # Raylib library
 ├── resources/            # Platform-specific resources
-│   └── app.rc            # Windows application icon
+│   ├── app.rc
+│   ├── icon.ico
+│   └── icon.png          # Windows application icon
 ├── CMakeLists.txt        # Build configuration
 ├── LICENSE               # MIT License
 └── README.md             # This file
@@ -208,11 +206,6 @@ PlayAsGobo/
 
 <details>
 <summary><b>Build Errors</b></summary>
-
-**"Raylib not found"**
-```bash
-git submodule update --init --recursive
-```
 
 **"CMake version too old"**
 ```bash
