@@ -2,6 +2,7 @@
 
 #include "raylib.h"
 #include <cstdint>
+#include <string>
 
 namespace PlayAsGobo {
 
